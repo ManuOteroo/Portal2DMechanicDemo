@@ -6,6 +6,7 @@ C# implementation of momentum-preserving portals in Unity 2D. Focused on momentu
 <p align="center">
   <img src="Media/Showcase1.gif" width="400" />
   <img src="Media/showcase2.gif" width="400" />
+  <img src="Media/showcase3.gif" width="400" />
 </p>
 
 ## Key Features
