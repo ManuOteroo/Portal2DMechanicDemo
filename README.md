@@ -1,6 +1,19 @@
 # Portal2DMechanicDemo
 C# implementation of momentum-preserving portals in Unity 2D. Focused on momentum conservation and physics-based teleportation.
-Media/Showcase1.gif Media/Showcase2.gif
+
+<p align="center">
+  <table align="center">
+    <tr>
+      <td><img src="Media/Showcase1.gif" width="400" alt="Portal Placement Demo"></td>
+      <td><img src="Media/Showcase2.gif" width="400" alt="Momentum Physics Demo"></td>
+    </tr>
+    <tr align="center">
+      <td><b>Dynamic Placement & Surface Normals</b></td>
+      <td><b>Momentum Preservation & Physics</b></td>
+    </tr>
+  </table>
+</p>
+
 ## Key Features
 
 ### 1. Dynamic Portal Generation (`PortalProjectile.cs`)
@@ -18,6 +31,9 @@ Media/Showcase1.gif Media/Showcase2.gif
 * **State-Based Input:** Uses the **Unity Input System** to handle equipping and firing different portal types (A and B).
 * **Animation & Audio Sync:** Integrated triggers for shooting animations and sound effects upon firing.
 
+
+The core logic handles the physics transition by capturing the `Rigidbody2D` velocity magnitude and re-applying it to the target portal's exit vector:
+
 ```csharp
 private void Teleport(GameObject obj, Transform exitTransform)
 {
@@ -34,4 +50,3 @@ private void Teleport(GameObject obj, Transform exitTransform)
         rb.velocity = exitTransform.right * magnitude;
     }
 }
-
