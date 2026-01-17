@@ -61,7 +61,7 @@ private void Teleport(GameObject obj, Transform exitTransform)
 
 ```
 ### Credits
-This project is a technical extension developed during a **Michigan State University course**. While the base framkework was provided by the course, I have significantly expanded the project with my own custom implementations:
+This project is a technical extension developed during a **Michigan State University course**. While the base framework was provided by the course, I have significantly expanded the project with my own custom implementations:
 * **Custom Scripts:** All the core logic for the portals, projectiles, and weapon systems was written by me (`PortalBehaviour.cs`, `PortalProjectile.cs`, and `PortalGun.cs`).
 * **Art & Assets:** I designed the Portal Gun sprites & animations, and integrated all sound effects.
 * **Level Design:** All levels and puzzles included in this demo were designed and built by me to test the limits of the physics system.
