@@ -1,6 +1,8 @@
 # Portal2DMechanicDemo
 C# implementation of momentum-preserving portals in Unity 2D. Focused on momentum conservation and physics-based teleportation.
 
+### [Test it yourself on Itch.io](https://oterocrrll.itch.io/portal-2d-system-demo)
+
 <p align="center">
   <img src="Media/Showcase1.gif" width="400" />
   <img src="Media/showcase2.gif" width="400" />
@@ -22,7 +24,6 @@ C# implementation of momentum-preserving portals in Unity 2D. Focused on momentu
 * **Mouse-Look Integration:** The weapon rotates dynamically toward the cursor with sprite-flipping logic to ensure visual consistency.
 * **State-Based Input:** Uses the **Unity Input System** to handle equipping and firing different portal types (A and B).
 * **Animation & Audio Sync:** Integrated triggers for shooting animations and sound effects upon firing.
-
 
 ## Architecture & Modularity
 This system was designed to allow each component to function independently:
@@ -59,5 +60,11 @@ private void Teleport(GameObject obj, Transform exitTransform)
 }
 
 ```
+### Credits
+This project is a technical extension developed during a **Michigan State University course**. While the base framkework was provided by the course, I have significantly expanded the project with my own custom implementations:
+* **Custom Scripts:** All the core logic for the portals, projectiles, and weapon systems was written by me (`PortalBehaviour.cs`, `PortalProjectile.cs`, and `PortalGun.cs`).
+* **Art & Assets:** I designed the Portal Gun sprites & animations, and integrated all sound effects.
+* **Level Design:** All levels and puzzles included in this demo were designed and built by me to test the limits of the physics system.
+
 ---
 Developed by a Otero
