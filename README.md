@@ -1,6 +1,6 @@
 # Portal2DMechanicDemo
 C# implementation of momentum-preserving portals in Unity 2D. Focused on momentum conservation and physics-based teleportation.
-
+Media/Showcase1.gif Media/Showcase2.gif
 ## Key Features
 
 ### 1. Dynamic Portal Generation (`PortalProjectile.cs`)
