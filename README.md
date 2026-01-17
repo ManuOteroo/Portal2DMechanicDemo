@@ -2,16 +2,8 @@
 C# implementation of momentum-preserving portals in Unity 2D. Focused on momentum conservation and physics-based teleportation.
 
 <p align="center">
-  <table align="center">
-    <tr>
-      <td><img src="Media/Showcase1.gif" width="400" alt="Portal Placement Demo"></td>
-      <td><img src="Media/Showcase2.gif" width="400" alt="Momentum Physics Demo"></td>
-    </tr>
-    <tr align="center">
-      <td><b>Dynamic Placement & Surface Normals</b></td>
-      <td><b>Momentum Preservation & Physics</b></td>
-    </tr>
-  </table>
+  <img src="Media/Showcase1.gif" width="400" />
+  <img src="Media/showcase2.gif" width="400" />
 </p>
 
 ## Key Features
