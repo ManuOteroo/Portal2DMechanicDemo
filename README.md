@@ -60,4 +60,4 @@ private void Teleport(GameObject obj, Transform exitTransform)
 
 ```
 ---
-*Developed by a Otero
+Developed by a Otero
